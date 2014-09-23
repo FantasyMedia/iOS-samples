@@ -25,6 +25,8 @@
 - (void)setTabBarStyle {
     // Set the background color of tabbar
     [[UITabBar appearance] setBarTintColor:[UIColor blueColor]];
+    // Set the color of selected tabbar text
+    [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A9ACEF419D1C4790078FABA /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9ACEF319D1C4790078FABA /* TabBarViewController.m */; };
+		9A9ACEF619D1C5B00078FABA /* contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9ACEF519D1C5B00078FABA /* contacts.png */; };
+		9A9ACEF819D1C5C40078FABA /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9ACEF719D1C5C40078FABA /* add.png */; };
 		9AA0AC1719D169580042ECDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0AC1619D169580042ECDF /* main.m */; };
 		9AA0AC1A19D169580042ECDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0AC1919D169580042ECDF /* AppDelegate.m */; };
 		9AA0AC1D19D169580042ECDF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0AC1C19D169580042ECDF /* FirstViewController.m */; };
@@ -28,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A9ACEF219D1C4790078FABA /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		9A9ACEF319D1C4790078FABA /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		9A9ACEF519D1C5B00078FABA /* contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contacts.png; path = "../../../../../Documents/Projects/Weibo Client/contacts.png"; sourceTree = "<group>"; };
+		9A9ACEF719D1C5C40078FABA /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = "../../../../../Documents/Projects/Weibo Client/add.png"; sourceTree = "<group>"; };
 		9AA0AC1119D169580042ECDF /* TabBarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA0AC1519D169580042ECDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AA0AC1619D169580042ECDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +91,8 @@
 		9AA0AC1319D169580042ECDF /* TabBarSample */ = {
 			isa = PBXGroup;
 			children = (
+				9A9ACEF719D1C5C40078FABA /* add.png */,
+				9A9ACEF519D1C5B00078FABA /* contacts.png */,
 				9AA0AC1819D169580042ECDF /* AppDelegate.h */,
 				9AA0AC1919D169580042ECDF /* AppDelegate.m */,
 				9AA0AC1B19D169580042ECDF /* FirstViewController.h */,
@@ -94,6 +103,8 @@
 				9AA0AC2419D169580042ECDF /* Images.xcassets */,
 				9AA0AC2619D169580042ECDF /* LaunchScreen.xib */,
 				9AA0AC1419D169580042ECDF /* Supporting Files */,
+				9A9ACEF219D1C4790078FABA /* TabBarViewController.h */,
+				9A9ACEF319D1C4790078FABA /* TabBarViewController.m */,
 			);
 			path = TabBarSample;
 			sourceTree = "<group>";
@@ -206,6 +217,8 @@
 			files = (
 				9AA0AC2319D169580042ECDF /* Main.storyboard in Resources */,
 				9AA0AC2819D169580042ECDF /* LaunchScreen.xib in Resources */,
+				9A9ACEF619D1C5B00078FABA /* contacts.png in Resources */,
+				9A9ACEF819D1C5C40078FABA /* add.png in Resources */,
 				9AA0AC2519D169580042ECDF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A9ACEF419D1C4790078FABA /* TabBarViewController.m in Sources */,
 				9AA0AC2019D169580042ECDF /* SecondViewController.m in Sources */,
 				9AA0AC1A19D169580042ECDF /* AppDelegate.m in Sources */,
 				9AA0AC1D19D169580042ECDF /* FirstViewController.m in Sources */,
@@ -418,6 +432,7 @@
 				9AA0AC3919D169590042ECDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AA0AC3A19D169590042ECDF /* Build configuration list for PBXNativeTarget "TabBarSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				9AA0AC3C19D169590042ECDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
