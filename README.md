@@ -11,7 +11,8 @@ Feel free to run them in your own simulator.
 
 ## List of samples
 
-- [TabBarSample](TabBarSample)
+- [TabBarSample](TabBarSample): Customize UITabBar and UITabBarItem.
+- [TabBarSampleSwift](TabBarSampleSwift): Customize UITabBar and UITabBarItem with Swift.
 
 ## License
 
