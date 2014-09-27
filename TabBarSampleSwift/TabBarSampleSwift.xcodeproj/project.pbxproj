@@ -14,6 +14,9 @@
 		9A07C9E119D4133D00BA0ECC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A07C9E019D4133D00BA0ECC /* Images.xcassets */; };
 		9A07C9E419D4133D00BA0ECC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A07C9E219D4133D00BA0ECC /* LaunchScreen.xib */; };
 		9A07C9F019D4133D00BA0ECC /* TabBarSampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07C9EF19D4133D00BA0ECC /* TabBarSampleSwiftTests.swift */; };
+		9A6E8DBE19D65B4A00B213A0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E8DBD19D65B4A00B213A0 /* TabBarViewController.swift */; };
+		9A6E8DC119D65B7800B213A0 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A6E8DBF19D65B7800B213A0 /* add.png */; };
+		9A6E8DC219D65B7800B213A0 /* contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A6E8DC019D65B7800B213A0 /* contacts.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		9A07C9E919D4133D00BA0ECC /* TabBarSampleSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarSampleSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A07C9EE19D4133D00BA0ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A07C9EF19D4133D00BA0ECC /* TabBarSampleSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSampleSwiftTests.swift; sourceTree = "<group>"; };
+		9A6E8DBD19D65B4A00B213A0 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9A6E8DBF19D65B7800B213A0 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = "../../../../../Documents/Projects/Weibo Client/add.png"; sourceTree = "<group>"; };
+		9A6E8DC019D65B7800B213A0 /* contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contacts.png; path = "../../../../../Documents/Projects/Weibo Client/contacts.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 		9A07C9D419D4133D00BA0ECC /* TabBarSampleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9A6E8DBF19D65B7800B213A0 /* add.png */,
+				9A6E8DC019D65B7800B213A0 /* contacts.png */,
+				9A6E8DBD19D65B4A00B213A0 /* TabBarViewController.swift */,
 				9A07C9D719D4133D00BA0ECC /* AppDelegate.swift */,
 				9A07C9D919D4133D00BA0ECC /* FirstViewController.swift */,
 				9A07C9DB19D4133D00BA0ECC /* SecondViewController.swift */,
@@ -198,6 +207,8 @@
 				9A07C9DF19D4133D00BA0ECC /* Main.storyboard in Resources */,
 				9A07C9E419D4133D00BA0ECC /* LaunchScreen.xib in Resources */,
 				9A07C9E119D4133D00BA0ECC /* Images.xcassets in Resources */,
+				9A6E8DC119D65B7800B213A0 /* add.png in Resources */,
+				9A6E8DC219D65B7800B213A0 /* contacts.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6E8DBE19D65B4A00B213A0 /* TabBarViewController.swift in Sources */,
 				9A07C9DC19D4133D00BA0ECC /* SecondViewController.swift in Sources */,
 				9A07C9D819D4133D00BA0ECC /* AppDelegate.swift in Sources */,
 				9A07C9DA19D4133D00BA0ECC /* FirstViewController.swift in Sources */,
@@ -409,6 +421,7 @@
 				9A07C9F519D4133D00BA0ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A07C9F619D4133D00BA0ECC /* Build configuration list for PBXNativeTarget "TabBarSampleSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				9A07C9F819D4133D00BA0ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
