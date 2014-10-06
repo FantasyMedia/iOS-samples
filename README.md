@@ -15,6 +15,7 @@ Feel free to run them in your own simulator.
 - [TabBarSampleSwift](TabBarSampleSwift): Customize UITabBar and UITabBarItem with Swift.
 - [WebViewSample](WebViewSample)
 - [WebViewSampleSwift](WebViewSampleSwift)
+- [TableViewSampleSwift](TableViewSampleSwift): Minimal UITableView sample in Swift.
 
 ## License
 
