@@ -1,7 +1,7 @@
 iOS Samples
 ---
 
-A collection of iOS samples by TeenWorks.
+A collection of iOS samples.
 
 ## About
 
@@ -19,4 +19,4 @@ Feel free to run them in your own simulator.
 
 ## License
 
-The MIT License
+The [MIT License](LICENSE)
